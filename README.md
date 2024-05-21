@@ -75,18 +75,15 @@ The objective is to model the price of houses with the available independent var
 The Lasso Regression model, with its optimal alpha value, has been selected as the best model for predicting housing prices in the Australian market. This model provides a robust and generalizable solution, balancing high accuracy and reliability for prospective property investments.
 
 ## Repository Structure
-- `Assignment.ipynb`: Jupyter notebook containing the complete analysis and model building process.
-- `train.csv`: Dataset used for training the models.
-- `preprocessed_train.csv`: Preprocessed dataset.
+- `HousePricePrediction.ipynb`: Jupyter notebook containing the complete analysis and model building process.
+- `AssignmentQuestion.pdf`: Answers to the assignment questions.
 - `README.md`: This file, providing an overview of the assignment and results.
 
 ## Usage
 1. Clone the repository.
-2. Open the `Assignment.ipynb` notebook.
+2. Open the `HousePricePrediction.ipynb` notebook.
 3. Run the cells to reproduce the analysis and results.
 
-```sh
 git clone <repository_url>
 cd <repository_directory>
-jupyter notebook Assignment.ipynb
-
+jupyter notebook HousePricePrediction.ipynb
